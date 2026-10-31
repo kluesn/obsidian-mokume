@@ -46,9 +46,3 @@ With Style Settings installed you can adjust:
 ## License
 
 Theme code: MIT, see [LICENSE](LICENSE). Embedded fonts: SIL Open Font License 1.1, see [OFL.txt](OFL.txt).
-
----
-
-## Deutsch
-
-Mokume (木目) ist japanisch für „Holzmaserung“. Ein warmes, haptisches Theme für Obsidian, gemacht für lange Stunden am Bildschirm: erdige Farben statt sterilem Weiß, weiche Schatten, Papier mit feiner Struktur und Karten, die ruhig auf der Arbeitsfläche liegen. Dunkel- und Hellmodus, Schriften eingebettet, viele Details über das Plugin Style Settings einstellbar.
