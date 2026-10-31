@@ -13,7 +13,7 @@ A warm, tactile theme for Obsidian, made for the long hours you spend in your no
 ## Features
 
 - **Dark and light mode** – a cosy, espresso-toned dark mode and a soft, warm light mode
-- **Classic serif typography** – Fraunces for headings and Source Serif 4 for body text and the interface, both embedded, nothing to install
+- **Japanese-inspired typography** – Shippori Mincho for headings, with the fine brush endings of Japanese book printing, and Literata, designed for long reading on screens, for text and interface. Both embedded, nothing to install
 - **Tactile, calm surfaces** – fine paper grain and fibres, subtle mottling, soft lamp light, no harsh white
 - **Floating cards** – sidebar, editor and tabs sit on the desk with consistent gaps and soft shadows, no hard divider lines
 - **Folder chips** – top-level folders as coloured index cards
@@ -39,8 +39,8 @@ With Style Settings installed you can adjust:
 
 ## Credits
 
-- Fraunces by Undercase Type (Phaedra Charles, Flavia Zimbardi), SIL Open Font License 1.1
-- Source Serif 4 by Frank Grießhammer / Adobe, SIL Open Font License 1.1 – embedded as a subset under the name “Mokume Serif Text”, since “Source” is a Reserved Font Name
+- Shippori Mincho by FONTDASU, SIL Open Font License 1.1
+- Literata by TypeTogether (Veronika Burian, José Scaglione), SIL Open Font License 1.1
 - Colour names inspired by traditional Japanese colours
 
 ## License
