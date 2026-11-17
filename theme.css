@@ -48,6 +48,14 @@ name: Mokume
 id: mokume
 settings:
     -
+        id: zd-support
+        title: Support Mokume
+        title.de: Mokume unterstützen
+        description: "Enjoying Mokume? ☕ [Buy me a coffee](https://buymeacoffee.com/kluesn)"
+        description.de: "Gefällt dir Mokume? ☕ [Spendier mir einen Kaffee](https://buymeacoffee.com/kluesn)"
+        type: info-text
+        markdown: true
+    -
         id: zd-h-surface
         title: Oberfläche / Surface
         type: heading
@@ -128,7 +136,7 @@ settings:
         type: variable-themed-color
         format: hex
         opacity: false
-        default-light: '#6b5444'
+        default-light: '#dbb787'
         default-dark: '#171512'
     -
         id: zd-ink-1
@@ -137,7 +145,7 @@ settings:
         type: variable-themed-color
         format: hex
         opacity: false
-        default-light: '#efe6d4'
+        default-light: '#f9e6c8'
         default-dark: '#1d1a16'
     -
         id: zd-ink-2
@@ -146,34 +154,34 @@ settings:
         type: variable-themed-color
         format: hex
         opacity: false
-        default-light: '#e2d5bd'
+        default-light: '#f9e6c8'
         default-dark: '#24201b'
     -
         id: zd-a1
-        title: Accent 1 – heading 1
-        title.de: Akzent 1 – Überschrift 1
+        title: Accent 1 – interface accent, hover links
+        title.de: Akzent 1 – Oberflächenakzent, Links beim Überfahren
         type: variable-themed-color
         format: hex
         opacity: false
-        default-light: '#a8401f'
+        default-light: '#b0561a'
         default-dark: '#c8704e'
     -
         id: zd-a2
-        title: Accent 2 – heading 2, links, tags, quotes
-        title.de: Akzent 2 – Überschrift 2, Links, Tags, Zitate
+        title: Accent 2 – headings (warm gradient), links, tags, quotes
+        title.de: Akzent 2 – Überschriften (warmer Verlauf), Links, Tags, Zitate
         type: variable-themed-color
         format: hex
         opacity: false
-        default-light: '#8a5d14'
+        default-light: '#8c5e0a'
         default-dark: '#d0a04c'
     -
         id: zd-a3
-        title: Accent 3 – heading 3
-        title.de: Akzent 3 – Überschrift 3
+        title: Accent 3 – folder chips
+        title.de: Akzent 3 – Ordnerkarten
         type: variable-themed-color
         format: hex
         opacity: false
-        default-light: '#556532'
+        default-light: '#5a5a24'
         default-dark: '#8f9b6c'
     -
         id: zd-h-type
@@ -258,40 +266,40 @@ settings:
   --zd-grain-blend: overlay;
 }
 
-/* ---------- Standardpalette hell (Zeitungspapier auf Nussbaumtisch) ---------- */
+/* ---------- Standardpalette hell (Abendgold: Dunst, Waldsaum, Glanz auf dem Wasser) ---------- */
 .theme-light {
-  --zd-desk: #6b5444;
-  --zd-desk-text: #e6d9c6;
-  --zd-desk-text-strong: #fbf2e4;
-  --zd-ink-1: #efe6d4;
-  --zd-ink-2: #e2d5bd;
-  --zd-ink-3: #f6eedf;
-  --zd-line: #cdbd9f;
-  --zd-paper: #2d241b;
-  --zd-paper-muted: #66574a;
-  --zd-paper-faint: #9a8a77;
-  --zd-bold: #1d1610;
-  --zd-a1: #a8401f;
-  --zd-a2: #8a5d14;
-  --zd-a3: #556532;
+  --zd-desk: #dbb787;            /* goldener Abenddunst */
+  --zd-desk-text: #4a3422;       /* Waldsaum */
+  --zd-desk-text-strong: #2a1a0b;
+  --zd-ink-1: #f9e6c8;           /* Blatt: gleiche Farbe wie die Seitenleisten */
+  --zd-ink-2: #f9e6c8;           /* Seitenleiste */
+  --zd-ink-3: #fff8e9;
+  --zd-line: #efd3a4;
+  --zd-paper: #3a2614;           /* Text: warmes Waldbraun statt Grau */
+  --zd-paper-muted: #6e4f2e;
+  --zd-paper-faint: #93724a;
+  --zd-bold: #2a1a0b;
+  --zd-a1: #b0561a;              /* Sonne / Bernstein */
+  --zd-a2: #8c5e0a;              /* Gold: Überschriften-Verlauf, Links, Tags */
+  --zd-a3: #5a5a24;              /* Wald */
   --zd-a4: #934049;
   --zd-a5: #36606a;
-  --zd-a6: #7d5d42;
+  --zd-a6: #7a5634;              /* Felsen */
 
-  --zd-shadow: 46 30 18;
-  --zd-hl: 255 252 244;
+  --zd-shadow: 74 44 14;         /* warme, goldbraune Schatten */
+  --zd-hl: 255 250 236;
   --zd-hl-a: 0.75;
-  --zd-edge: 0.10;
-  --zd-ambient: 0.30;
-  --zd-shadow-k: 0.9;
-  --zd-grain: 0.10;
+  --zd-edge: 0.07;
+  --zd-ambient: 0.14;
+  --zd-shadow-k: 0.6;
+  --zd-grain: 0.035;
   --zd-grain-blend: multiply;
-  --zd-fiber: 0.07;
+  --zd-fiber: 0.03;
   --zd-fiber-size: 260px 260px;
   --zd-fiber-blend: multiply;
-  --zd-vignette: 0.14;
-  --zd-lamp: 0.12;
-  --zd-mottle: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='700' height='700'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.0142857143' numOctaves='3' seed='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feComponentTransfer><feFuncR type='linear' slope='0.08' intercept='0.95'/><feFuncG type='linear' slope='0.08' intercept='0.95'/><feFuncB type='linear' slope='0.08' intercept='0.95'/><feFuncA type='linear' slope='0' intercept='1'/></feComponentTransfer></filter><rect width='100%' height='100%' filter='url(%23m)'/></svg>");
+  --zd-vignette: 0.05;
+  --zd-lamp: 0.10;
+  --zd-mottle: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='700' height='700'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.0142857143' numOctaves='3' seed='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feComponentTransfer><feFuncR type='linear' slope='0.04' intercept='0.98'/><feFuncG type='linear' slope='0.04' intercept='0.98'/><feFuncB type='linear' slope='0.04' intercept='0.98'/><feFuncA type='linear' slope='0' intercept='1'/></feComponentTransfer></filter><rect width='100%' height='100%' filter='url(%23m)'/></svg>");
 }
 
 /* ---------- Abgeleitete Werte, für beide Modi ---------- */
@@ -377,12 +385,12 @@ settings:
   --inline-title-color: var(--zd-paper);
   --inline-title-size: 2.4em;
   --inline-title-weight: 650;
-  --h1-font: var(--zd-display); --h1-size: 1.75em; --h1-weight: 700; --h1-color: var(--zd-a1);
+  --h1-font: var(--zd-display); --h1-size: 1.75em; --h1-weight: 700; --h1-color: var(--zd-a2);
   --h2-font: var(--zd-display); --h2-size: 1.4em;  --h2-weight: 700; --h2-color: var(--zd-a2);
-  --h3-font: var(--zd-display); --h3-size: 1.18em; --h3-weight: 700; --h3-color: var(--zd-a3);
-  --h4-font: var(--font-text-theme); --h4-size: 1.05em; --h4-weight: 600; --h4-color: var(--zd-a5);
-  --h5-color: var(--zd-a5);
-  --h6-color: var(--zd-paper-muted);
+  --h3-font: var(--zd-display); --h3-size: 1.18em; --h3-weight: 700; --h3-color: var(--zd-a2);
+  --h4-font: var(--font-text-theme); --h4-size: 1.05em; --h4-weight: 600; --h4-color: var(--zd-a2);
+  --h5-color: var(--zd-a2);
+  --h6-color: var(--zd-a2);
 
   /* Schatten */
   --zd-shadow-card:
@@ -509,10 +517,10 @@ body .workspace:not(:has(> .workspace-split.mod-right-split)) > .workspace-split
   padding-right: calc(12px - var(--zd-gap) / 2) !important;
 }
 body .workspace-split.mod-left-split .workspace-tab-container {
-  padding: 2px calc(var(--zd-gap) / 2) 12px 10px;
+  padding: 0 calc(var(--zd-gap) / 2) 12px calc(var(--zd-gap) / 2);
 }
 body .workspace-split.mod-right-split .workspace-tab-container {
-  padding: 2px 10px 12px calc(var(--zd-gap) / 2);
+  padding: 0 10px 12px calc(var(--zd-gap) / 2);
 }
 body .workspace-split .workspace-leaf {
   border-radius: 14px;
@@ -686,6 +694,30 @@ body .nav-folder-title.is-active {
   box-shadow: var(--zd-shadow-pressed);
 }
 
+/* Überschriften als warmer Verlauf: H1 im Gold von Akzent 2, jede tiefere Ebene
+   dreht den Farbton ein Stück weiter (Bernstein, Kupfer, Koralle, Rosé). Helligkeit
+   und Farbstärke bleiben auf allen Ebenen gleich, damit keine Ebene grau oder
+   schmutzig wirkt. Eine eigene Akzentfarbe aus Style Settings verschiebt den
+   ganzen Verlauf. */
+@supports (color: oklch(from red l c h)) {
+  body.theme-dark {
+    --h1-color: oklch(from var(--zd-a2) 0.79 0.12 calc(h + 0));
+    --h2-color: oklch(from var(--zd-a2) 0.79 0.12 calc(h - 12));
+    --h3-color: oklch(from var(--zd-a2) 0.79 0.12 calc(h - 25));
+    --h4-color: oklch(from var(--zd-a2) 0.79 0.12 calc(h - 38));
+    --h5-color: oklch(from var(--zd-a2) 0.79 0.12 calc(h - 50));
+    --h6-color: oklch(from var(--zd-a2) 0.79 0.12 calc(h - 62));
+  }
+  body.theme-light {
+    --h1-color: oklch(from var(--zd-a2) 0.47 0.12 calc(h + 0));
+    --h2-color: oklch(from var(--zd-a2) 0.47 0.12 calc(h - 12));
+    --h3-color: oklch(from var(--zd-a2) 0.47 0.12 calc(h - 25));
+    --h4-color: oklch(from var(--zd-a2) 0.47 0.12 calc(h - 38));
+    --h5-color: oklch(from var(--zd-a2) 0.47 0.12 calc(h - 50));
+    --h6-color: oklch(from var(--zd-a2) 0.47 0.12 calc(h - 62));
+  }
+}
+
 /* ==========================================================
    TEXT: Überschriften, Tinte, Initiale, Marker
    ========================================================== */
@@ -808,7 +840,7 @@ body.theme-dark {
   --zd-tab-dim-text: color-mix(in srgb, var(--zd-paper) 55%, var(--zd-desk));
 }
 body.theme-light {
-  --zd-tab-dim: 45%;
+  --zd-tab-dim: 60%;
   --zd-tab-dim-text: color-mix(in srgb, var(--zd-paper) 85%, transparent);
 }
 body .workspace-split.mod-root .workspace-tab-header:not(.is-active) {
@@ -903,6 +935,57 @@ body.zd-plain-tabs .workspace-split.mod-root .workspace-tab-header:not(.is-activ
   color: var(--zd-desk-text) !important;
 }
 
+/* ==== Hellmodus 1.1.2: sauberer, klarer ==== */
+body.theme-light {
+  /* Plugins nutzen diese Fläche für Kästen und Blasen. Hell darf sie nicht der
+     dunkle Tisch sein, sonst entstehen dunkelgraue Flächen mit schlecht lesbarer Schrift. */
+  --background-secondary-alt: color-mix(in srgb, var(--zd-line) 45%, var(--zd-ink-2));
+  --background-modifier-hover: color-mix(in srgb, var(--zd-paper) 5%, transparent);
+  --code-background: color-mix(in srgb, var(--zd-line) 35%, var(--zd-ink-1));
+  /* Dateien und Ordner in der Seitenleiste in der Textfarbe statt gedämpft */
+  --nav-item-color: var(--zd-paper);
+  --nav-item-color-hover: var(--zd-bold);
+  /* Tabellen: kräftigere Linien, goldener Kopf, leichte Zebrastreifen */
+  --table-border-color: color-mix(in srgb, var(--zd-a2) 35%, var(--zd-line));
+  --table-header-background: color-mix(in srgb, var(--zd-a2) 14%, var(--zd-ink-1));
+  --table-header-color: var(--zd-bold);
+  --table-row-alt-background: color-mix(in srgb, var(--zd-line) 28%, var(--zd-ink-1));
+  --table-row-background-hover: color-mix(in srgb, var(--zd-a2) 9%, var(--zd-ink-1));
+  --table-row-alt-background-hover: color-mix(in srgb, var(--zd-a2) 12%, var(--zd-ink-1));
+  /* Links: interne in kräftigem Bernstein, externe in Abendrot – beide warm,
+     aber klar vom braunen Text und voneinander unterscheidbar */
+  --link-color: #955a00;
+  --link-external-color: #b0401c;
+}
+/* Tabellenkopf hell sichtbar einfärben (Obsidian setzt die Variable nicht selbst) */
+body.theme-light .markdown-rendered thead th,
+body.theme-light .cm-html-embed thead th,
+body.theme-light .markdown-source-view.mod-cm6 .cm-table-widget thead th {
+  background-color: var(--table-header-background);
+}
+/* Externe Links dunkel: warmes Koralle statt grauem Petrol */
+body.theme-dark {
+  --link-external-color: #e0895e;
+}
+/* Claudian: Benutzer-Nachricht als helle Karte statt grauem Schleier */
+body.theme-light .claudian-message-user > .claudian-message-content {
+  background: color-mix(in srgb, var(--zd-a2) 9%, var(--zd-ink-3));
+  color: var(--zd-paper);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--zd-a2) 18%, transparent);
+}
+/* Ordnerkarten hell: klarere, weniger graue Tönung */
+body.theme-light:not(.zd-no-chips) .nav-files-container > div > .tree-item.nav-folder > .nav-folder-title {
+  background: color-mix(in srgb, var(--zd-chip, var(--zd-a6)) 16%, var(--zd-ink-3));
+}
+/* Ordnerkarten hell in der Abendgold-Palette statt Rosé, Petrol & Co. */
+body.theme-light .nav-files-container > div > .tree-item.nav-folder:nth-child(6n+1) { --zd-chip: #6b6a26; } /* Waldsaum */
+body.theme-light .nav-files-container > div > .tree-item.nav-folder:nth-child(6n+2) { --zd-chip: #b4472a; } /* Abendrot */
+body.theme-light .nav-files-container > div > .tree-item.nav-folder:nth-child(6n+3) { --zd-chip: #c27a1c; } /* Bernstein */
+body.theme-light .nav-files-container > div > .tree-item.nav-folder:nth-child(6n+4) { --zd-chip: #a8800f; } /* Gold */
+body.theme-light .nav-files-container > div > .tree-item.nav-folder:nth-child(6n+5) { --zd-chip: #9a6b45; } /* Bergdunst */
+body.theme-light .nav-files-container > div > .tree-item.nav-folder:nth-child(6n+6) { --zd-chip: #6e4a2c; } /* Felsen */
+
+
 /* ==== Feinschliff 1.0 ==== */
 /* Hellmodus: klares, warmes Textmarker-Gelb statt Braun */
 body.theme-light {
@@ -937,4 +1020,106 @@ body .workspace-split.mod-right-split > .workspace-tabs:has(~ .workspace-tabs) >
 body .workspace-split.mod-left-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container,
 body .workspace-split.mod-right-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container {
   padding-top: calc(var(--zd-gap) / 2) !important;
+}
+
+/* ==== 1.1.2: kompakte Abstände in den Seitenleisten ==== */
+/* Kopfzeile übereinanderliegender Bereiche (z. B. Zeiterfassung unter dem Dateiexplorer)
+   nur so hoch wie das Symbol, damit der Spalt zwischen den Karten nicht aus der Reihe fällt */
+body .workspace-split.mod-left-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container,
+body .workspace-split.mod-right-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container {
+  /* Symbol mittig: über und unter dem Symbol je genau ein Kartenabstand */
+  height: calc(26px + 1.5 * var(--zd-gap)) !important;
+  min-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: calc(var(--zd-gap) / 2) !important;
+}
+body .workspace-split.mod-left-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container .workspace-tab-header,
+body .workspace-split.mod-right-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container .workspace-tab-header {
+  height: 26px !important;
+}
+body .workspace-split.mod-left-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container .workspace-tab-header-container-inner,
+body .workspace-split.mod-right-split > .workspace-tabs ~ .workspace-tabs > .workspace-tab-header-container .workspace-tab-header-container-inner {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  align-items: center !important;
+  overflow: visible !important;
+}
+/* Symbole über den Seitenleisten an der Kartenkante ausrichten: sie beginnen
+   8 px innerhalb der Karte statt an bzw. vor deren Rand. Die linke Seitenleiste
+   sitzt so nah an der Symbolleiste wie der Editor bei eingeklappter Leiste. */
+body .workspace-split.mod-left-split .workspace-tab-header-container {
+  padding-left: calc(var(--zd-gap) / 2 + 8px) !important;
+}
+body .workspace-split.mod-right-split .workspace-tab-header-container {
+  padding-left: calc(var(--zd-gap) / 2 + 8px) !important;
+}
+/* Vault-Leiste unten flacher, unterste Karte rückt näher heran */
+body .workspace-sidedock-vault-profile {
+  padding-top: 0 !important;
+  padding-bottom: 4px !important;
+  min-height: 0 !important;
+}
+body .workspace-split.mod-left-split:has(> .workspace-sidedock-vault-profile) > .workspace-tabs:not(:has(~ .workspace-tabs)) > .workspace-tab-container {
+  padding-bottom: var(--zd-gap) !important;
+}
+/* Hell: Blatt und Seitenleiste haben dieselbe Farbe, die aktive Datei hebt sich hell ab */
+body.theme-light .nav-file-title.is-active,
+body.theme-light .nav-folder-title.is-active {
+  background: var(--zd-ink-3) !important;
+}
+
+/* ==== 1.1.2: eingeschaltete Symbole in Linkfarbe ==== */
+body .workspace-ribbon .clickable-icon:is(.is-active, .mod-active, [aria-pressed="true"]),
+body .side-dock-ribbon-action:is(.is-active, .mod-active, [aria-pressed="true"]),
+body .workspace-tab-header-container .clickable-icon:is(.is-active, .mod-active, [aria-pressed="true"]),
+body .view-header .clickable-icon:is(.is-active, .mod-active, [aria-pressed="true"]),
+body .nav-header .clickable-icon:is(.is-active, .mod-active, [aria-pressed="true"]) {
+  color: var(--link-color, var(--zd-a2)) !important;
+  --icon-color: var(--link-color, var(--zd-a2));
+  background: color-mix(in srgb, var(--link-color, var(--zd-a2)) 15%, transparent);
+}
+body .workspace-split:not(.mod-root) .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+  color: var(--link-color, var(--zd-a2)) !important;
+  --icon-color: var(--link-color, var(--zd-a2));
+}
+
+/* ==== 1.1.2: Ziehgriffe zwischen den Karten besser greifbar ==== */
+/* Obsidian setzt den Griff an die Kante einer Spalte und macht ihn nur
+   3px breit. Hier füllt er den ganzen Spalt zwischen zwei Karten (mittig)
+   und ragt 3px in jede Karte; beim Darüberfahren erscheint eine Linie. */
+body {
+  --zd-grip: calc(var(--zd-gap) + 6px);
+  --divider-width-hover: var(--zd-grip);
+}
+body .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+body .workspace-split.mod-left-split > .workspace-leaf-resize-handle {
+  margin-inline-end: calc(var(--zd-grip) / -2);
+}
+body .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  margin-inline-start: calc(var(--zd-grip) / -2);
+}
+body .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+  margin-bottom: calc(var(--zd-grip) / -2);
+}
+body .workspace-leaf-resize-handle::after {
+  content: "";
+  position: absolute;
+  border-radius: 2px;
+  background: var(--link-color, var(--zd-a2));
+  opacity: 0;
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+body .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle::after,
+body .workspace-split.mod-left-split > .workspace-leaf-resize-handle::after,
+body .workspace-split.mod-right-split > .workspace-leaf-resize-handle::after {
+  top: 14px; bottom: 14px; left: 50%; width: 2px; transform: translateX(-50%);
+}
+body .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle::after {
+  left: 14px; right: 14px; top: 50%; height: 2px; transform: translateY(-50%);
+}
+body .workspace-leaf-resize-handle:hover::after,
+body .workspace-leaf-resize-handle.is-active::after {
+  opacity: 0.7;
 }

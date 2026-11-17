@@ -1,7 +1,8 @@
 {
   "name": "Mokume",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minAppVersion": "1.6.0",
   "author": "kluesn",
-  "authorUrl": "https://github.com/kluesn"
+  "authorUrl": "https://github.com/kluesn",
+  "fundingUrl": "https://buymeacoffee.com/kluesn"
 }

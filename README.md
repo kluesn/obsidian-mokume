@@ -10,9 +10,16 @@ A warm, tactile theme for Obsidian, made for the long hours you spend in your no
 | --- | --- |
 | ![Dark mode](screenshot-dark.png) | ![Light mode](screenshot-light.png) |
 
+## Works well with Automatic Time Tracker
+
+The live sidebar in the screenshots is [Automatic Time Tracker](https://community.obsidian.md/plugins/automatic-time-tracker), a plugin by the same author: it tracks how long you work on each note, PDF and drawing.
+
+![Mokume with Automatic Time Tracker](screenshot-time-tracker.png)
+
 ## Features
 
-- **Dark and light mode** – a cosy, espresso-toned dark mode and a soft, warm light mode
+- **Dark and light mode** – a cosy, espresso-toned dark mode and a bright, golden light mode inspired by evening sun on water
+- **Warm heading gradient** – headings run from gold through amber and copper to coral and rose, all at the same brightness, so every level stands out
 - **Japanese-inspired typography** – Shippori Mincho for headings, with the fine brush endings of Japanese book printing, and Literata, designed for long reading on screens, for text and interface. Both embedded, nothing to install
 - **Tactile, calm surfaces** – fine paper grain and fibres, subtle mottling, soft lamp light, no harsh white
 - **Floating cards** – sidebar, editor and tabs sit on the desk with consistent gaps and soft shadows, no hard divider lines
@@ -36,6 +43,10 @@ With Style Settings installed you can adjust:
 
 - Settings → Appearance → **Window frame style: Obsidian frame** gives the cleanest window corners on macOS.
 - Leave the font fields under Settings → Appearance → Font empty, otherwise they override the theme's fonts.
+
+## Support
+
+If Mokume makes your notes a little cosier, you can [buy me a coffee ☕](https://buymeacoffee.com/kluesn). Thank you!
 
 ## Credits
 
